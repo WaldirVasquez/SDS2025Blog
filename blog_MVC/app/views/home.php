@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog SDS2025</title>
+    <title>Semana de Sistemas 2025 - SDS25</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header --->
+    <!-- Header -->
     <header class="header">
         <div class="header-container">
             <div class="logo">
@@ -30,6 +30,252 @@
         </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="hero" id="inicio">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title flicker-animation">
+                    SEMANA DE SISTEMAS 2025
+                    <span class="hero-subtitle">SDS25</span>
+                </h1>
+                <p class="hero-description">
+                    Una experiencia única donde la tecnología y la innovación se encuentran. 
+                    Cinco días de conferencias, talleres y networking con los mejores profesionales 
+                    del sector de sistemas y tecnología de la información.
+                </p>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                <img src="images/ASEIS.png" alt="Logo Semana de Sistemas" class="hero-photo">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- descripcion del proyect -->
+    <section class="project-section">
+        <div class="container">
+            <div class="project-card">
+                <h2 class="project-title">Descripción del Proyecto</h2>
+                <p class="project-description">
+                    La Semana de Sistemas 2025 es una jornada académica organizada por la carrera de Ingeniería 
+                    de Sistemas, donde se desarrollan actividades, charlas y talleres enfocados en tecnología 
+                    y tendencias actuales. Este blog es un proyecto creado para documentar
+                     y seguir cada día del evento, permitiendo a los participantes consultar información, 
+                     itinerarios y novedades de la semana.
+                </p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Itinerarios por la Mañana -->
+<section class="schedule-section">
+  <div class="container">
+    <h2 class="section-title">Itinerarios</h2>
+    <h3 class="section-subtitle">Por la Mañana</h3>
+
+    <div class="cards-grid">
+      <!-- Día 1 -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="/images/dia1.png" alt="Día 1" class="card-img">
+
+            <span class="day-number">01</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Lunes 13 otc 2025</h3> <h3><br>Ponencia #1 <br> El ABC de Bitcoin</h3>
+          <p class="card-description">Msc. <br> LUIS CONTRERAS</p>
+          <h3>Ponencia #2 <br> Inteligencia Artificial Generativa de la idea a la accion</h3>
+          <p class="card-description">Msc. <br>RODRIGO PINEDA</p>
+          <a href="#dia1" class="card-button">Ir al Día 1</a>
+        </div>
+      </div>
+
+      <!-- Día 2 -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia2.png" alt="Día 2" class="card-img">
+            <span class="day-number">02</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 2</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia2" class="card-button">Ir al Día 2</a>
+        </div>
+      </div>
+
+      <!-- Día 3 -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia3.png" alt="Día 3" class="card-img">
+            <span class="day-number">03</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 3</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia3" class="card-button">Ir al Día 3</a>
+        </div>
+      </div>
+
+      <!-- Día 4 -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia4.png" alt="Día 4" class="card-img">
+            <span class="day-number">04</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 4</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia4" class="card-button">Ir al Día 4</a>
+        </div>
+      </div>
+
+      <!-- Día 5 -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia5.png" alt="Día 5" class="card-img">
+            <span class="day-number">05</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 5</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia5" class="card-button">Ir al Día 5</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Itinerarios por la Tarde -->
+<section class="schedule-section afternoon">
+  <div class="container">
+    <h3 class="section-subtitle">Por la Tarde</h3>
+
+    <div class="cards-grid">
+      <!-- Día 1 Tarde -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="/images/hack.png" alt="Día 1 Tarde" class="card-img">
+            <span class="day-number">1</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 1 - Tarde</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia1" class="card-button">Ir al Día 1</a>
+        </div>
+      </div>
+
+      <!-- Día 2 Tarde -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia2_tarde.png" alt="Día 2 Tarde" class="card-img">
+            <span class="day-number">02</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 2 - Tarde</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia2" class="card-button">Ir al Día 2</a>
+        </div>
+      </div>
+
+      <!-- Día 3 Tarde -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia3_tarde.png" alt="Día 3 Tarde" class="card-img">
+            <span class="day-number">03</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 3 - Tarde</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia3" class="card-button">Ir al Día 3</a>
+        </div>
+      </div>
+
+      <!-- Día 4 Tarde -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia4_tarde.png" alt="Día 4 Tarde" class="card-img">
+            <span class="day-number">04</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 4 - Tarde</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia4" class="card-button">Ir al Día 4</a>
+        </div>
+      </div>
+
+      <!-- Día 5 Tarde -->
+      <div class="day-card">
+        <div class="card-image-wrapper">
+          <div class="card-image">
+            <img src="images/dia5_tarde.png" alt="Día 5 Tarde" class="card-img">
+            <span class="day-number">05</span>
+          </div>
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Día 5 - Tarde</h3>
+          <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#dia5" class="card-button">Ir al Día 5</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Patrocinadores -->
+    <section class="sponsors-section">
+        <div class="container">
+            <h2 class="section-title">Patrocinadores</h2>
+            <div class="carousel-wrapper">
+                <div class="carousel-track">
+                    <div class="sponsor-item">
+                        <img src="/images/villamotos.png" alt="villamotos" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="/images/FRANCESA.png" alt="FRANCESA" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="/images/MUEVO.jpg" alt="MUEVO" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="/images/OPTICA.jpg" alt="OPTICA" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="/images/SARITA.jpg" alt="SARITA" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="/images/TECNO.png" alt="TECNO" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="images/cisco.png" alt="" class="sponsor-logo">
+                    </div>
+                    <div class="sponsor-item">
+                        <img src="images/adobe.png" alt="" class="sponsor-logo">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -57,7 +303,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Semana de Sistemas.</p>
+            <p>&copy; 2025 Semana de Sistemas. Todos los derechos reservados.</p>
         </div>
     </footer>
 </body>
