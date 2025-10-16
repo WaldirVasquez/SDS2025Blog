@@ -1,0 +1,105 @@
+body {
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0a1929, #1e3a5f);
+      color: #fff;
+
+    }
+
+    .visita-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #00ccff;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      max-width: 500px;
+      margin-bottom: 2rem;
+      line-height: 1.5;
+    }
+
+    form {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+      width: 90%;
+      max-width: 400px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0 1rem;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+      color: #fff;
+      font-size: 1rem;
+    }
+
+    input::placeholder {
+      color: #ccc;
+    }
+
+    button {
+      background: #00ccff;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: #0a1929;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #14b8a6;
+    }
+
+    .volver {
+      display: inline-block;
+      margin-top: 1.5rem;
+      color: #00ccff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .volver:hover {
+      text-decoration: underline;
+    }
+
+ /* Efecto pata el chequesito de registro de vista */
+.swal2-popup.blur-popup {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  color: #00ccff;
+}
+
+
+.swal2-icon-success {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.swal2-icon-success [class^="swal2-success-line"],
+.swal2-icon-success [class*=" swal2-success-line"] {
+  background-color: #00ff99 !important; 
+}
+
+.swal2-icon-success .swal2-success-ring {
+  border: none !important; 
+}

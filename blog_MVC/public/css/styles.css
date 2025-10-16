@@ -520,6 +520,8 @@ padding: 4rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
+  text-decoration: none;
+  text-align: center; 
   
 }
 .card-btn:hover {
@@ -648,6 +650,7 @@ padding: 4rem 1rem;
     background: #020119;
     border-top: 1px solid rgba(65, 90, 119, 0.3);
     padding: 3rem 1rem;
+    
 }
 
 .footer-content {
@@ -659,6 +662,7 @@ padding: 4rem 1rem;
     font-weight: bold;
     color: white;
     margin-bottom: 1rem;
+    
 }
 
 .footer-subtitle {

@@ -1,6 +1,7 @@
-Options -MultiViews
-
 RewriteEngine On
+RewriteBase /
+
+# Redirige todas las peticiones que no sean archivos reales
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [L]
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
