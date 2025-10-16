@@ -58,7 +58,8 @@ if (isset($_GET['exito']) && $_GET['exito'] == '1') {
     ";
 }
 ?>
-
 </body>
 </html>
 <?php include BASE_PATH . 'layout/footer.php'; ?>
+
+
