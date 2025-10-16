@@ -167,7 +167,7 @@
             <img src="/images/PyT/PUPUSAS.png" alt="Ponencia 2">
           </div>
         </div>
-        <button class="card-btn">Ir al Día 4</button>
+        <a href="/dia4" class="card-btn">Ir al Día 1</a>
       </div>
     </div>
 
