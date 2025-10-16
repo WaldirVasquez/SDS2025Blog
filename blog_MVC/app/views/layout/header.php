@@ -23,8 +23,8 @@
                 <nav class="nav-menu">
                     <a href="/" class="nav-item">Inicio</a>
                     <a href="/dia1" class="nav-item">Día 1</a>
-                    <a href="#" class="nav-item">Día 2</a>
-                    <a href="#" class="nav-item">Día 3</a>
+                    <a href="/dia2" class="nav-item">Día 2</a>
+                    <a href="/dia3" class="nav-item">Día 3</a>
                     <a href="#" class="nav-item">Día 4</a>
                     <a href="#" class="nav-item">Día 5</a>
                     <a href="#" class="nav-item">Mi Información</a>
