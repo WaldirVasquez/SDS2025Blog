@@ -1,12 +1,14 @@
-// efcto de carag lodader
-    window.addEventListener('load', () => {
-      setTimeout(() => {
-        const loader = document.getElementById('loader');
-        if(loader){ loader.style.opacity = '0'; loader.style.transition = 'opacity .6s ease';
-          setTimeout(()=> loader.remove(), 650);
-        }
-      }, 1800);
-    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    const loader = document.getElementById('loader');
+    if(loader){
+      loader.style.opacity = '0';
+      loader.style.transition = 'opacity .4s ease';
+      setTimeout(()=> loader.remove(), 400);
+    }
+  }, 1500);
+});
 
 
     //animaciones de secciones
