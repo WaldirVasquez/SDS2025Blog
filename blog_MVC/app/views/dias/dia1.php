@@ -27,73 +27,72 @@
     <div class="meta">Pequeño Auditorio 1</div>
     <p class="desc">Breve mensaje de apertura, presentación del programa general y palabras de bienvenida a cargo del comité organizador. Se invita a los asistentes a compartir en redes con el hashtag <strong>#SDS25</strong>.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760588832/sds25_qneaz5.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760588832/sds25_qneaz5.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/presidenta_p57l0k.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/presidenta_p57l0k.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Presidenta Karla Orellana danado paralabras de bienvenida</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760591304/doctora_vwcgrz.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760591304/doctora_vwcgrz.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Palabras de la Doctora Azucena Retana Vicedecana</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760591303/jefe_dyer6e.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760591303/jefe_dyer6e.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Palbras de motivacion del Ign. luis Castro jefe de departamento de Ingenieria y Arquitectura </figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760590669/Diego_y3sgb7.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760590669/Diego_y3sgb7.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">El Ing. Diego Herrera dando palabras de motivacion</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760591700/Karla_mtbeh3.mp4" controls playsinline></video></div>
       <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
     </div>
   </section>
 
   <!-- PONENCIA 1 -->
   <section class="section-card" data-anim>
-    <h2 class="section-title">Ponencia #1 · 9:00 AM</h2>
-    <div class="meta">Docente invitado: <strong>Nombre del ponente</strong> · Auditorio 1</div>
-    <p class="desc">Descripción breve de la temática abordada en la primera ponencia: objetivos, herramientas presentadas y aprendizajes clave para los asistentes.</p>
+    <h2 class="section-title">Ponencia #1 El ABC del Bitcoin · 9:00 AM - 10:30 A</h2>
+    <div class="meta">Invitado: <strong>MSc. Luis Contrera</strong> · Auditorio 1</div>
+    <p class="desc">La ponencia “El ABC del Bitcoin” fue una introducción al mundo de las criptomonedas, donde el MSc. Luis Contrera explicó los conceptos básicos del Bitcoin, su origen, funcionamiento y su impacto en la economía actual.
+                    Durante la charla, se abordaron temas como la tecnología blockchain, la minería de criptomonedas y las medidas de seguridad para su uso.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/ponencia1_jvv74j.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/ponencia1_jvv74j.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencaia #1 El ABC del Bitcoin por el MSc. Luis Contrera</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592979/Luis_Contrera1_mwbctc.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592979/Luis_Contrera1_mwbctc.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencaia #1 El ABC del Bitcoin por el MSc. Luis Contrera</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592979/Luis_Contrera3_bdwc8t.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592979/Luis_Contrera3_bdwc8t.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencaia #1 El ABC del Bitcoin por el MSc. Luis Contrera</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592980/Luis_Contrera2_cokfh8.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760592980/Luis_Contrera2_cokfh8.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencaia #1 El ABC del Bitcoin por el MSc. Luis Contrera</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760593313/ponencia1_qdznxq.mp4" controls playsinline></video></div>
     </div>
   </section>
 
   <!-- PONENCIA 2 -->
   <section class="section-card" data-anim>
-    <h2 class="section-title">Ponencia #2 · 11:00 AM</h2>
-    <div class="meta">Docente invitado: <strong>Nombre del ponente</strong> · Auditorio 2</div>
-    <p class="desc">Resumen de la segunda ponencia: problemática, propuesta, resultados esperados y demostraciones realizadas durante la actividad.</p>
+    <h2 class="section-title">Ponencia #2 · 10:30 AM - 12:00 PM</h2>
+    <div class="meta">Invitado: <strong>MSc. Rodrigo Pineda</strong> · Auditorio 1</div>
+    <p class="desc">exploró cómo la IA generativa está revolucionando la forma en que creamos contenido, resolvemos problemas y automatizamos procesos.
+                    El expositor explicó de manera práctica cómo transformar una simple idea en un proyecto funcional impulsado por inteligencia artificial, mostrando ejemplos de modelos generativos, asistentes virtuales y herramientas creativas.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589210/ponencia2_z0wuk3.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589210/ponencia2_z0wuk3.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion. Por el MSc. Rodrigo Pineda</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594373/Pineda3_qz0ltz.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594373/Pineda3_qz0ltz.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion.</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594376/Pineda4_dctijd.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594376/Pineda4_dctijd.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion.</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594376/Pineda1_stzffj.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594376/Pineda1_stzffj.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion.</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594377/Pineda2_pjynj3.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594377/Pineda2_pjynj3.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion.</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760593686/1000293970_q98u60.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760594256/ponencia2_f2w71e.mp4" controls playsinline></video></div>
     </div>
   </section>
 
   <!-- HACKATHON -->
   <section class="section-card" data-anim>
-    <h2 class="section-title">Hackathon · 2:00 PM – 6:00 PM</h2>
-    <div class="meta">Lugar: Laboratorio de Innovación · Equipos de 3–5 personas</div>
-    <p class="desc">Desafío de creación rápida con enfoque en soluciones para la comunidad. Criterios: impacto, innovación, viabilidad y demo funcional. Presentaciones finales y premiación al cierre.</p>
+    <h2 class="section-title">Hackathon · 1:00 PM – 4:00 PM</h2>
+    <div class="meta">Auditorio 1 Equipos de 4 personas</div>
+    <p class="desc">Entre las propuestas destacadas, un equipo presentó una plataforma web para agendar citas veterinarias, enfocada en mejorar la atención y el bienestar animal; mientras que otro grupo desarrolló un sistema de gestión de eventos, ponencias y asistencias, pensado para optimizar la organización académica y tecnológica.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
-      <figure class="card" data-full="https://tu-servidor.com/media/ina_1.jpg"><img src="https://tu-servidor.com/media/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Corte de cinta inaugural</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack1_oq1ooa.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack1_oq1ooa.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Hackathon</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594900/hack2_gdxv9i.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594900/hack2_gdxv9i.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Hackathon</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack3_jcmuho.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack3_jcmuho.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Hackathon</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594903/hack4_nsyseo.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594903/hack4_nsyseo.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Hackathonl</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594904/hack5_grer8m.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594904/hack5_grer8m.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">Hackathon</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
-      <div class="video-wrap"><video src="https://tu-servidor.com/media/ina_video_1.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760595040/hackk_bbbx2o.mp4" controls playsinline></video></div>
     </div>
   </section>
 
