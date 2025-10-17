@@ -1,8 +1,7 @@
 <?php
 class InfoController {
     public function index() {
-        include './app/views/info.php';
+        include '/var/www/app/views/info.php';
     }
 }
-
 ?>

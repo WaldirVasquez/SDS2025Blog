@@ -20,7 +20,7 @@ class Visita {
             $stmt->bindParam(':correo', $correo);
             $stmt->execute();
         } catch (PDOException $e) {
-            echo "❌ Error al guardar visita: " . $e->getMessage();
+            echo " Error al guardar visita: " . $e->getMessage();
         }
     }
 }
