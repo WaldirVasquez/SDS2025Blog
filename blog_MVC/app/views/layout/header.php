@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Semana de Sistemas 2025</title>
-  <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana de Sistemas 2025</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
- <!-- Header -->
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="header-content">
@@ -44,4 +46,5 @@
     </header>
 
 </body>
+
 </html>
