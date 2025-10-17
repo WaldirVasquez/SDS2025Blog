@@ -21,22 +21,21 @@
 </div>
 
 <main class="wrapper">
-  <!-- INAUGURACIÓN -->
+  <!-- Feria de logros -->
   <section class="section-card" data-anim>
     <h2 class="section-title">9:00 AM · Feria de Logros</h2>
     <div class="meta">Plaza Minerva</div>
-    <p class="desc">En la Feria de Logros – SDS 2025 se presentaron los proyectos más destacados desarrollados por estudiantes desde primer hasta quinto año, demostrando la evolución de sus habilidades técnicas y creativas. <strong>#SDS25</strong>.</p>
+    <p class="desc">En la Feria de Logros – SDS 2025 se presentaron los proyectos más destacados desarrollados por estudiantes desde primer hasta quinto año, demostrando la evolución de sus habilidades técnicas y creativas. Para ver las fotos completas  con clic en ellas se mostraran<strong>#SDS25</strong>.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full=""><img src="/images/dia1/ina_1.jpg" alt="Inauguración – Foto 1" loading="lazy"><figcaption class="overlay">feria de logros</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/ina_2.jpg"><img src="/images/dia1/ina_2.jpg" alt="Inauguración – Foto 2" loading="lazy"><figcaption class="overlay">feria de logros</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/ina_3.jpg"><img src="/images/dia1/ina_3.jpg" alt="Inauguración – Foto 3" loading="lazy"><figcaption class="overlay">feria de logros</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/ina_4.jpg"><img src="/images/dia1/ina_4.jpg" alt="Inauguración – Foto 4" loading="lazy"><figcaption class="overlay">feria de logros</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/ina_5.jpg"><img src="/images/dia1/ina_5.jpg" alt="Inauguración – Foto 5" loading="lazy"><figcaption class="overlay">feria de logros</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658779/feria-de-logros_fsj9ol.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658779/feria-de-logros_fsj9ol.jpg" alt="Feria de logros – Foto 1" loading="lazy"><figcaption class="overlay">Feria de logros SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658776/feria-de-logros2_r94sku.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658776/feria-de-logros2_r94sku.jpg" alt="Feria de logros – Foto 2" loading="lazy"><figcaption class="overlay">Feria de logros SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658777/feria-de-logros1_hi1nf4.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658777/feria-de-logros1_hi1nf4.jpg" alt="Feria de logros – Foto 3" loading="lazy"><figcaption class="overlay">Feria de logros SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760659229/equipo_llo4nc.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760659229/equipo_llo4nc.jpg" alt="Feria de logros – Foto 4" loading="lazy"><figcaption class="overlay">Mi equipo y yo presentando Biblioteca Virtual CUBO proyecto desarrollado para la materia Diseños de Sistemas 1 y 2</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658717/yo2_wvsy0w.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658717/yo2_wvsy0w.jpg" alt="Feria de logros – Foto 5" loading="lazy"><figcaption class="overlay">Participando en la feria de logros <strong>#SDS2025</strong></figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="/images/dia1/ina_video_1.mp4" controls playsinline></video></div>
-      <div class="video-wrap"><video src="/images/dia1/ina_video_2.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760659736/feria_fha0xp.mp4" controls playsinline></video></div>
     </div>
   </section>
 
@@ -47,11 +46,11 @@
     <p class="desc">El Comelón de Pupusas fue una divertida competencia en la que varios estudiantes se enfrentaron para demostrar quién podía comer la mayor cantidad de pupusas.
                     El evento combinó risas, emocion y mucha energía, mientras los participantes competían por el premio al gran premio.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="/images/dia1/p1_1.jpg"><img src="/images/dia1/p1_1.jpg" alt="Ponencia 1 – Foto 1" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_2.jpg"><img src="/images/dia1/p1_2.jpg" alt="Ponencia 1 – Foto 2" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_3.jpg"><img src="/images/dia1/p1_3.jpg" alt="Ponencia 1 – Foto 3" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_4.jpg"><img src="/images/dia1/p1_4.jpg" alt="Ponencia 1 – Foto 4" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_5.jpg"><img src="/images/dia1/p1_5.jpg" alt="Ponencia 1 – Foto 5" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="/images/dia1/p1_1.jpg"><img src="/images/dia1/p1_1.jpg" alt="Comelon de pupusas – Foto 1" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="/images/dia1/p1_2.jpg"><img src="/images/dia1/p1_2.jpg" alt="Comelon de pupusas – Foto 2" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="/images/dia1/p1_3.jpg"><img src="/images/dia1/p1_3.jpg" alt="Comelon de pupusas – Foto 3" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="/images/dia1/p1_4.jpg"><img src="/images/dia1/p1_4.jpg" alt="Comelon de pupusas – Foto 4" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="/images/dia1/p1_5.jpg"><img src="/images/dia1/p1_5.jpg" alt="Comelon de pupusas – Foto 5" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
