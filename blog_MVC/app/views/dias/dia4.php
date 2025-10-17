@@ -43,19 +43,22 @@
   <section class="section-card" data-anim>
     <h2 class="section-title">Comelon de Pupusas · 12:00 PM</h2>
     <div class="meta">Frente a Edificio Minerva</div>
-    <p class="desc">El Comelón de Pupusas fue una divertida competencia en la que varios estudiantes se enfrentaron para demostrar quién podía comer la mayor cantidad de pupusas.
-                    El evento combinó risas, emocion y mucha energía, mientras los participantes competían por el premio al gran premio.</p>
+    <p class="desc">El Comelón de Pupusas fue una divertida competencia en la que varios estudiantes y el Ing. Guandique se enfrentaron para demostrar quién podía comer la mayor cantidad de pupusas.
+                    El evento combinó risas, emocion y mucha energía, mientras los participantes competían por el premio al gran premio donde el ganador fue el Ingeniero Guandique en primer lugar.
+                    Para ver las fotos completas  con clic en ellas se mostraran<strong>#SDS25</strong>.</p>
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full="/images/dia1/p1_1.jpg"><img src="/images/dia1/p1_1.jpg" alt="Comelon de pupusas – Foto 1" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_2.jpg"><img src="/images/dia1/p1_2.jpg" alt="Comelon de pupusas – Foto 2" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_3.jpg"><img src="/images/dia1/p1_3.jpg" alt="Comelon de pupusas – Foto 3" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_4.jpg"><img src="/images/dia1/p1_4.jpg" alt="Comelon de pupusas – Foto 4" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
-      <figure class="card" data-full="/images/dia1/p1_5.jpg"><img src="/images/dia1/p1_5.jpg" alt="Comelon de pupusas – Foto 5" loading="lazy"><figcaption class="overlay">Comelon de pupusas</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658745/comelon-de-pupusas4_rjnsey.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658745/comelon-de-pupusas4_rjnsey.jpg" alt="Comelon de pupusas – Foto 1" loading="lazy"><figcaption class="overlay">Comelon de pupusas SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663063/comelon-de-pupusas1_q8dglk.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663063/comelon-de-pupusas1_q8dglk.jpg" alt="Comelon de pupusas  – Foto 2" loading="lazy"><figcaption class="overlay">Comelon de pupusas SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663023/comelon-de-pupusas2_hn7hnb.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663023/comelon-de-pupusas2_hn7hnb.jpg" alt="Comelon de pupusas  – Foto 3" loading="lazy"><figcaption class="overlay">Comelon de pupusas SDS2025</figcaption></figure>
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663301/comelon-de-pupusas5_crykv5.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663301/comelon-de-pupusas5_crykv5.jpg" alt="Comelon de pupusas  – Foto 4" loading="lazy"><figcaption class="overlay">Comelon de pupusas SDS20255</figcaption></figure>
+      <figure class="card" data-full="hhttps://res.cloudinary.com/dqubpavb8/image/upload/v1760663104/comelon-de-pupusas3_rhiytq.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663104/comelon-de-pupusas3_rhiytq.jpg" alt="Comelon de pupusas  – Foto 5" loading="lazy"><figcaption class="overlay">Comelon de pupusas SDS2025</figcaption></figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="/images/dia1/p1_video_1.mp4" controls playsinline></video></div>
-      <div class="video-wrap"><video src="/images/dia1/p1_video_2.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760662940/inicio_ytg9xu.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760661766/comelon_de_pupusas_1_dmpzvd.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760661728/comelon_de_pupusas2_gluevz.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760662744/premios_-_Trim_e7lzva.mp4" controls playsinline></video></div>
     </div>
   </section>
 
