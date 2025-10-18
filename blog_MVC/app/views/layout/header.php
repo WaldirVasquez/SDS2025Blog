@@ -28,7 +28,7 @@
                     <a href="/dia2" class="nav-item">Día 2</a>
                     <a href="/dia3" class="nav-item">Día 3</a>
                     <a href="/dia4" class="nav-item">Día 4</a>
-                    <a href="#" class="nav-item">Día 5</a>
+                    <a href="/dia5" class="nav-item">Día 5</a>
                     <a href="/mi-info" class="nav-item">Mi Información</a>
                     <a href="/visita" class="nav-item"><button class="button">Registrar Visita</button></a>
 
