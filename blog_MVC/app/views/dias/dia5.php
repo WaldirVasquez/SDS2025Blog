@@ -114,27 +114,16 @@
     <div class="meta">IBIZA </div>
     <p class="desc">Par cerra de la mejor manera la semana de sistemas 2025 se opto por realizar una fieta .<br>
                     Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p>
+
     <div class="grid grid--5" style="margin-top:16px">
-      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 1" loading="lazy">
-        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
-      </figure>
-      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 2" loading="lazy">
-        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
-      </figure>
-      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 3" loading="lazy">
-        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
-      </figure>
-      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 4" loading="lazy">
-        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
-      </figure>
-      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 5" loading="lazy">
+      <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760764756/fiesta_hers4i.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760764756/fiesta_hers4i.jpg" alt="HALLOFUTURE PARTY – Foto 1" loading="lazy">
         <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
       </figure>
     </div>
 
     <div class="grid grid--2" style="margin-top:16px">
-      <div class="video-wrap"><video src="" controls playsinline></video></div>
-      <div class="video-wrap"><video src="" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760764760/fiesta_huaog5.mp4" controls playsinline></video></div>
+      <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760764755/fiesta1_wm3vg4.mp4" controls playsinline></video></div>
     </div>
   </section>
 

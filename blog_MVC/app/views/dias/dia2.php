@@ -106,7 +106,7 @@
 
    <!-- Taller 4 -->
   <section class="section-card" data-anim>
-    <h2 class="section-title">Taller #4 IA MULTIMODAL: creando el fututo visual e inteligente con n8n De texto a imagen que conectan y transforman 3:00 AM - 4:40 PM </h2>
+    <h2 class="section-title">Taller #4 IA MULTIMODAL: creando el futuro visual e inteligente con n8n De texto a imagen que conectan y transforman 3:00 AM - 4:40 PM </h2>
     <div class="meta">Invitado: <strong>MSc. JOSE SALMERON</strong> · Google Meet</div>
     <p class="desc">Este taller se enfocó en mostrar cómo la Inteligencia Artificial Multimodal está revolucionando la forma en que interactuamos con la información. 
                     Nosotros como participantes aprendimos a generar contenido visual a partir de texto y cómo estas herramientas pueden conectarse y transformarse usando n8n. <br>
