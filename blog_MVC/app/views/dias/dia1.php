@@ -1,6 +1,6 @@
 <?php include BASE_PATH . 'layout/header.php'; ?>
 
-<!-- CSS y JS específicos de este día -->
+
 <link rel="stylesheet" href="/css/dias.css">
 
 
@@ -24,8 +24,11 @@
   <!-- INAUGURACIÓN -->
   <section class="section-card" data-anim>
     <h2 class="section-title">8:00 AM · INAUGURACIÓN Y BIENVENIDA</h2>
-    <div class="meta">Pequeño Auditorio 1</div>
-    <p class="desc">Breve mensaje de apertura, presentación del programa general y palabras de bienvenida a cargo del comité organizador. Se invita a los asistentes a compartir en redes con el hashtag <strong>#SDS25</strong>.</p>
+    <div class="meta">Auditorio 1</div>
+    <p class="desc">La inauguración de la Semana de Sistemas 2025 marcó el inicio oficial de una jornada llena de aprendizaje, innovación y compañerismo. 
+                    El evento comenzó con las palabras de bienvenida de las autoridades académicas, quienes resaltaron la importancia de la carrera de Ingeniería en Sistemas en el desarrollo tecnológico actual y motivaron a los estudiantes a aprovechar cada actividad programada.
+                    Posteriormente, la presidenta de la Asociación de Estudiantes de Ingeniería en Sistemas (ASEIS), Karla Orellana, fue la encargada de dar las palabras oficiales de inauguración. <br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p></p>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760588832/sds25_qneaz5.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760588832/sds25_qneaz5.jpg" alt="Inauguración – Foto 1" loading="lazy">
         <figcaption class="overlay">SDS2025</figcaption>
@@ -55,7 +58,9 @@
     <h2 class="section-title">Ponencia #1 El ABC del Bitcoin · 9:00 AM - 10:30 A</h2>
     <div class="meta">Invitado: <strong>MSc. Luis Contrera</strong> · Auditorio 1</div>
     <p class="desc">La ponencia “El ABC del Bitcoin” fue una introducción al mundo de las criptomonedas, donde el MSc. Luis Contrera explicó los conceptos básicos del Bitcoin, su origen, funcionamiento y su impacto en la economía actual.
-      Durante la charla, se abordaron temas como la tecnología blockchain, la minería de criptomonedas y las medidas de seguridad para su uso.</p>
+                    Durante la charla, se abordaron temas como la tecnología blockchain, la minería de criptomonedas y las medidas de seguridad para su uso.<br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p>
+    <div class="grid grid--5" style="margin-top:16px"></div></p>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/ponencia1_jvv74j.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589209/ponencia1_jvv74j.jpg" alt="Inauguración – Foto 1" loading="lazy">
         <figcaption class="overlay">Ponencaia #1 El ABC del Bitcoin por el MSc. Luis Contrera</figcaption>
@@ -80,8 +85,11 @@
   <section class="section-card" data-anim>
     <h2 class="section-title">Ponencia #2 · 10:30 AM - 12:00 PM</h2>
     <div class="meta">Invitado: <strong>MSc. Rodrigo Pineda</strong> · Auditorio 1</div>
-    <p class="desc">exploró cómo la IA generativa está revolucionando la forma en que creamos contenido, resolvemos problemas y automatizamos procesos.
-      El expositor explicó de manera práctica cómo transformar una simple idea en un proyecto funcional impulsado por inteligencia artificial, mostrando ejemplos de modelos generativos, asistentes virtuales y herramientas creativas.</p>
+    <p class="desc">Se exploró cómo la IA generativa está revolucionando la forma en que creamos contenido, resolvemos problemas y automatizamos procesos.
+                    El expositor explicó de manera práctica cómo transformar una simple idea en un proyecto funcional impulsado por inteligencia artificial, 
+                    mostrando ejemplos de modelos generativos, asistentes virtuales y herramientas creativas.<br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p></p>
+    <div class="grid grid--5" style="margin-top:16px"></div>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589210/ponencia2_z0wuk3.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760589210/ponencia2_z0wuk3.jpg" alt="Inauguración – Foto 1" loading="lazy">
         <figcaption class="overlay">Ponencia #2 Inteligencia Artifical Generativa, de la idea a la accion. Por el MSc. Rodrigo Pineda</figcaption>
@@ -110,7 +118,10 @@
   <section class="section-card" data-anim>
     <h2 class="section-title">Hackathon · 1:00 PM – 4:00 PM</h2>
     <div class="meta">Auditorio 1 Equipos de 4 personas</div>
-    <p class="desc">Entre las propuestas destacadas, un equipo presentó una plataforma web para agendar citas veterinarias, enfocada en mejorar la atención y el bienestar animal; mientras que otro grupo desarrolló un sistema de gestión de eventos, ponencias y asistencias, pensado para optimizar la organización académica y tecnológica.</p>
+    <p class="desc">Entre las propuestas destacadas, un equipo presentó una plataforma web para agendar citas veterinarias, enfocada en mejorar la atención y el bienestar animal; 
+                    mientras que otro grupo desarrolló un sistema de gestión de eventos, ponencias y asistencias, pensado para optimizar la organización académica y tecnológica.<br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p></p>
+    <div class="grid grid--5" style="margin-top:16px"></div>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack1_oq1ooa.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760594899/hack1_oq1ooa.jpg" alt="Inauguración – Foto 1" loading="lazy">
         <figcaption class="overlay">Hackathon</figcaption>

@@ -1,6 +1,5 @@
 <?php include BASE_PATH . 'layout/header.php'; ?>
 
-<!-- CSS y JS específicos de este día -->
 <link rel="stylesheet" href="/css/dias.css">
 
 
@@ -88,7 +87,8 @@
     <p class="desc">El Torneo de Videojuegos de Clash Royale, realizado en el laboratorio “Compuro A” finalizando asi la penultima actividad de la Semana de Sistemas 2025, <br> 
                     fue una de las actividades más emocionantes del evento. Los participantes compitieron en intensas batallas uno contra uno, demostrando su estrategia, reflejos y dominio<br>
                     En este torneo habia dos grupos el de los que hiban ganando y el de los perdores que tenian una segunda oportunidad depesue de perder su primer partida.<br>
-                    En este torneo quedo como campeon el compañero Mike. Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p>
+                    En este torneo quedo como campeon el compañero Mike.<br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760756063/torneo3_vgdzbr.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760756063/torneo3_vgdzbr.jpg" alt="Torneo – Foto 1" loading="lazy">
         <figcaption class="overlay">Torneo de Videojuegos Clash Royale</figcaption>
@@ -107,6 +107,37 @@
       </figure>
     </div>
   </section>
+
+  <!-- FIESTA DE CIERRE-->
+  <section class="section-card" data-anim>
+    <h2 class="section-title">HALLOFUTURE PARTY · 9:00 PM</h2>
+    <div class="meta">IBIZA </div>
+    <p class="desc">Par cerra de la mejor manera la semana de sistemas 2025 se opto por realizar una fieta .<br>
+                    Para ver las fotos completas dar clic en ellas <strong>#SDS25</strong>.</p>
+    <div class="grid grid--5" style="margin-top:16px">
+      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 1" loading="lazy">
+        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
+      </figure>
+      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 2" loading="lazy">
+        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
+      </figure>
+      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 3" loading="lazy">
+        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
+      </figure>
+      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 4" loading="lazy">
+        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
+      </figure>
+      <figure class="card" data-full=""><img src="" alt="HALLOFUTURE PARTY – Foto 5" loading="lazy">
+        <figcaption class="overlay">HALLOFUTURE PARTY </figcaption>
+      </figure>
+    </div>
+
+    <div class="grid grid--2" style="margin-top:16px">
+      <div class="video-wrap"><video src="" controls playsinline></video></div>
+      <div class="video-wrap"><video src="" controls playsinline></video></div>
+    </div>
+  </section>
+
 
   <div class="actions" data-anim>
     <a href="/" class="btn" aria-label="Regresar al inicio">Regresar al inicio</a>

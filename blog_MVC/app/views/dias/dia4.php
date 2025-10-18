@@ -1,6 +1,6 @@
 <?php include BASE_PATH . 'layout/header.php'; ?>
 
-<!-- CSS y JS específicos de este día -->
+
 <link rel="stylesheet" href="/css/dias.css">
 
 
@@ -25,7 +25,9 @@
   <section class="section-card" data-anim>
     <h2 class="section-title">9:00 AM · Feria de Logros</h2>
     <div class="meta">Plaza Minerva</div>
-    <p class="desc">En la Feria de Logros – SDS 2025 se presentaron los proyectos más destacados desarrollados por estudiantes desde primer hasta quinto año, demostrando la evolución de sus habilidades técnicas y creativas. Para ver las fotos completas con clic en ellas se mostraran<strong>#SDS25</strong>.</p>
+    <p class="desc">En la Feria de Logros – SDS 2025 se presentaron los proyectos más destacados desarrollados por estudiantes desde primer hasta quinto año, 
+                    demostrando la evolución de sus habilidades técnicas y creativas. <br>
+                    Para ver las fotos completas con clic en ellas se mostraran <strong>#SDS25</strong>.</p>
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658779/feria-de-logros_fsj9ol.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658779/feria-de-logros_fsj9ol.jpg" alt="Feria de logros – Foto 1" loading="lazy">
         <figcaption class="overlay">Feria de logros SDS2025</figcaption>
@@ -54,8 +56,8 @@
     <h2 class="section-title">Comelon de Pupusas · 12:00 PM</h2>
     <div class="meta">Frente a Edificio Minerva</div>
     <p class="desc">El Comelón de Pupusas fue una divertida competencia en la que varios estudiantes y el Ing. Guandique se enfrentaron para demostrar quién podía comer la mayor cantidad de pupusas.
-      El evento combinó risas, emocion y mucha energía, mientras los participantes competían por el premio al gran premio donde el ganador fue el Ingeniero Guandique en primer lugar.
-      Para ver las fotos completas con clic en ellas se mostraran<strong>#SDS25</strong>.</p>
+      El evento combinó risas, emocion y mucha energía, mientras los participantes competían por el premio al gran premio donde el ganador fue el Ingeniero Guandique en primer lugar.<br>
+      Para ver las fotos completas con clic en ellas se mostraran <strong>#SDS25</strong>.</p> 
     <div class="grid grid--5" style="margin-top:16px">
       <figure class="card" data-full="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658745/comelon-de-pupusas4_rjnsey.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760658745/comelon-de-pupusas4_rjnsey.jpg" alt="Comelon de pupusas – Foto 1" loading="lazy">
         <figcaption class="overlay">Comelon de pupusas SDS2025</figcaption>
@@ -72,8 +74,9 @@
       <figure class="card" data-full="hhttps://res.cloudinary.com/dqubpavb8/image/upload/v1760663104/comelon-de-pupusas3_rhiytq.jpg"><img src="https://res.cloudinary.com/dqubpavb8/image/upload/v1760663104/comelon-de-pupusas3_rhiytq.jpg" alt="Comelon de pupusas  – Foto 5" loading="lazy">
         <figcaption class="overlay">Comelon de pupusas SDS2025</figcaption>
       </figure>
-    </div>
+      </div>
 
+      
     <div class="grid grid--2" style="margin-top:16px">
       <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760662940/inicio_ytg9xu.mp4" controls playsinline></video></div>
       <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760661766/comelon_de_pupusas_1_dmpzvd.mp4" controls playsinline></video></div>
@@ -81,6 +84,9 @@
       <div class="video-wrap"><video src="https://res.cloudinary.com/dqubpavb8/video/upload/v1760662744/premios_-_Trim_e7lzva.mp4" controls playsinline></video></div>
     </div>
   </section>
+  
+    </div>
+
 
   <div class="actions" data-anim>
     <a href="/" class="btn" aria-label="Regresar al inicio">Regresar al inicio</a>
