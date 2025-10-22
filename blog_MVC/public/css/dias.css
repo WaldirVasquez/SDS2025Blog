@@ -516,3 +516,430 @@ section {
   right: -160px;
   background: radial-gradient(circle, rgba(6, 214, 160, .22), transparent 70%);
 }
+
+
+
+/* --- FIX RESPONSIVO PARA LOADER SDS25 --- */
+#loader {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(80% 60% at 50% 40%, #0b1a33 0%, #061125 50%, #040b1a 100%);
+  z-index: 9999;
+  padding: 2rem;
+  text-align: center;
+}
+
+.loader-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo-sds {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(6px, 2vw, 14px);
+  margin-bottom: clamp(8px, 2vh, 16px);
+}
+
+.logo-sds span {
+  font-weight: 800;
+  font-size: clamp(26px, 8vw, 68px);
+  letter-spacing: 0.08em;
+  color: var(--neon);
+  text-shadow: 0 0 10px var(--neon), 0 0 20px var(--neon);
+  filter: drop-shadow(0 0 25px var(--neon-soft));
+  opacity: 0.95;
+  animation: sdsFlicker 2.2s infinite;
+}
+
+/* barra adaptativa */
+.loader-bar {
+  width: clamp(180px, 60vw, 420px);
+  height: clamp(4px, 0.8vw, 8px);
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, var(--neon), transparent);
+  background-size: 200% 100%;
+  animation: barFlow 1.8s linear infinite;
+  filter: drop-shadow(0 0 8px var(--neon));
+}
+
+/* ajustes extra para pantallas pequeñas */
+@media (max-width: 768px) {
+  #loader {
+    padding: 1.5rem;
+  }
+
+  .logo-sds span {
+    font-size: clamp(24px, 10vw, 44px);
+  }
+
+  .loader-bar {
+    width: 80%;
+    height: 5px;
+  }
+}
+
+@media (max-height: 500px) {
+  #loader {
+    padding-top: 2rem;
+    justify-content: flex-start;
+  }
+
+  .logo-sds {
+    margin-top: 4vh;
+  }
+}
+
+/* =========================================================
+   🔧 FIX RESPONSIVO PARA VISTA DÍA 1 — SDS25
+   ========================================================= */
+
+/* --- General layout scaling --- */
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 96%;
+    padding: 0 1rem;
+  }
+
+  section {
+    margin: 32px 0 50px;
+  }
+
+  .section-card {
+    padding: 20px 16px;
+  }
+
+  .titulo-dia1 {
+    margin: 60px auto;
+  }
+
+  .titulo-led {
+    font-size: clamp(28px, 6vw, 60px);
+    letter-spacing: 2px;
+  }
+
+  .subtitulo-led {
+    font-size: clamp(14px, 2.5vw, 22px);
+  }
+}
+
+/* --- Galería y cards --- */
+@media (max-width: 900px) {
+  .grid--5 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+
+  .card img {
+    height: 180px;
+  }
+
+  .desc {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* --- Tablet / móviles grandes --- */
+@media (max-width: 768px) {
+  .titulo-dia1 {
+    margin: 50px auto;
+  }
+
+  .titulo-led {
+    font-size: clamp(24px, 8vw, 50px);
+    line-height: 1.2;
+  }
+
+  .subtitulo-led {
+    font-size: clamp(14px, 4vw, 20px);
+  }
+
+  .section-card {
+    padding: 18px 14px;
+  }
+
+  .grid--5 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .video-wrap video {
+    aspect-ratio: 16/9;
+    border-radius: 12px;
+  }
+
+  .lightbox-content {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+}
+
+/* --- Móviles pequeños --- */
+@media (max-width: 480px) {
+  .titulo-led {
+    font-size: clamp(20px, 9vw, 40px);
+    letter-spacing: 1px;
+  }
+
+  .subtitulo-led {
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    width: 94%;
+    padding: 0;
+  }
+
+  .section-card {
+    padding: 14px 10px;
+  }
+
+  .grid--5 {
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .lightbox-content {
+    max-width: 95vw;
+    max-height: 75vh;
+  }
+
+  .lightbox-close {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+/* --- Pantallas muy pequeñas o apaisadas --- */
+@media (max-height: 480px) {
+  .titulo-dia1 {
+    margin: 30px auto;
+  }
+
+  .titulo-led {
+    font-size: 1.6rem;
+  }
+
+  .logo-sds span {
+    font-size: clamp(20px, 10vw, 40px);
+  }
+
+  .lightbox-content {
+    max-width: 85vw;
+    max-height: 55vh;
+  }
+}
+
+/* =========================================================
+   ⚡ FIX AVANZADO RESPONSIVO – VISTA DÍAS (SDS25)
+   ========================================================= */
+
+/* --- Tablets medianas (≤1024px) --- */
+@media (max-width: 1024px) {
+  .titulo-dia1 {
+    margin: 60px auto 40px;
+    text-align: center;
+  }
+
+  .titulo-led {
+    font-size: clamp(26px, 6vw, 58px);
+  }
+
+  .subtitulo-led {
+    font-size: clamp(14px, 2.5vw, 20px);
+  }
+
+  .wrapper {
+    width: 92%;
+  }
+
+  .section-card {
+    padding: 20px 18px;
+  }
+
+  .desc {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .grid--5 {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .video-wrap video {
+    border-radius: 14px;
+  }
+}
+
+/* --- Tablets y móviles grandes (≤768px) --- */
+@media (max-width: 768px) {
+  .titulo-dia1 {
+    margin-top: 50px;
+  }
+
+  .titulo-led {
+    font-size: clamp(22px, 8vw, 48px);
+    line-height: 1.2;
+  }
+
+  .subtitulo-led {
+    font-size: clamp(13px, 3vw, 18px);
+  }
+
+  .section-card {
+    padding: 16px 14px;
+  }
+
+  .grid--5 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .card img {
+    height: 160px;
+  }
+
+  .desc {
+    font-size: 14px;
+    text-align: justify;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+  }
+
+  .video-wrap video {
+    aspect-ratio: 16/9;
+    border-radius: 10px;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+/* --- Smartphones estándar (≤480px) --- */
+@media (max-width: 480px) {
+  .titulo-dia1 {
+    margin: 40px auto 20px;
+  }
+
+  .titulo-led {
+    font-size: clamp(20px, 9vw, 38px);
+    letter-spacing: 1px;
+  }
+
+  .subtitulo-led {
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    width: 94%;
+  }
+
+  .section-card {
+    padding: 14px 12px;
+    border-radius: 12px;
+  }
+
+  .grid--5 {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .video-wrap video {
+    aspect-ratio: 16/9;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .desc {
+    font-size: 14px;
+  }
+
+  .actions {
+    margin: 30px 0 60px;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+
+  .lightbox-content {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  .lightbox-close {
+    padding: 8px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+/* --- Teléfonos pequeños o apaisados (≤360px o ≤480px de alto) --- */
+@media (max-width: 360px), (max-height: 480px) {
+  .titulo-led {
+    font-size: 1.4rem;
+  }
+
+  .wrapper {
+    width: 92%;
+  }
+
+  .desc {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .card img {
+    height: auto;
+  }
+
+  .video-wrap video {
+    aspect-ratio: 16/9;
+  }
+
+  .lightbox-content {
+    max-width: 85vw;
+    max-height: 60vh;
+  }
+}
