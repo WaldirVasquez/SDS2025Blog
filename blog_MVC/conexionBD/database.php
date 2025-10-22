@@ -29,8 +29,5 @@ class Database {
         return $this->conn;
     }
 }
-?>
-his->conn;
-    }
-}
-?>
+
+

@@ -24,4 +24,4 @@ class DiaController {
     public function dia4() { $this->loadView(4); }
     public function dia5() { $this->loadView(5); }
 }
-?>
+
