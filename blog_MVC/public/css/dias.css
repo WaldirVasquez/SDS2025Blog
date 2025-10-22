@@ -1034,39 +1034,28 @@ html, body {
 }
 
 /* Corrige posibles “micro-scrolls” en iOS/Safari */
-body {
-  position: relative;
-  left: 0;
-  right: 0;
+/* 🧩 FIX FINAL SIN ROMPER FOOTER GLOBAL NI DOBLE SCROLL */
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;  /* evita desplazamiento lateral */
+  overflow-y: auto !important;    /* permite desplazamiento vertical normal */
   margin: 0;
   padding: 0;
 }
-/* 🧩 FIX DEFINITIVO PARA ESPACIO LATERAL DERECHO (HALO Y ANIMACIONES) */
 
+/* Corrige el halo inferior */
 .halo.h2 {
   right: auto !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   max-width: 100vw !important;
   overflow: hidden !important;
+  bottom: -120px;
 }
 
-/* Asegura que ningún anim [data-anim] se salga del ancho */
-[data-anim],
-[data-anim="left"],
-[data-anim="right"] {
-  transform: none !important;
-  overflow-x: hidden !important;
-}
-
-/* Refuerzo global */
-html, body {
-  overflow-x: hidden !important;
-  width: 100%;
-  max-width: 100%;
-}
-
+/* Evita que las secciones creen scroll interno */
 .wrapper, section {
-  overflow-x: hidden !important;
-  max-width: 100vw;
+  overflow: visible !important;
 }
