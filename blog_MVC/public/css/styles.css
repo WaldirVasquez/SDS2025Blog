@@ -1041,3 +1041,22 @@ body {
     font-size: 1rem;
   }
 }
+
+html, body {
+  width: 100%;
+  overflow-x: hidden !important;
+}
+
+.carousel-wrapper {
+  overflow: hidden !important;
+}
+
+.image-box,
+.image-wrapper,
+.description-section,
+.schedule-section,
+.footer,
+.hero {
+  overflow-x: hidden !important;
+  max-width: 100% !important;
+}
