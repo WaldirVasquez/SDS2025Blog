@@ -402,3 +402,206 @@
         justify-content: center;
     }
 }
+
+/* =========================================================
+   🔧 FIX RESPONSIVO – VISTA MI INFORMACIÓN (SDS25)
+   ========================================================= */
+
+/* --- Ajustes para tablets (<=1024px) --- */
+@media (max-width: 1024px) {
+  .titulo {
+    font-size: 2.4rem;
+    margin-top: 40px;
+  }
+
+  .perfil-card {
+    max-width: 800px;
+    padding: 25px;
+  }
+
+  .perfil-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .perfil-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .descripcion {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .galeria-section {
+    max-width: 90%;
+  }
+
+  .contact-card h2 {
+    font-size: 1.8rem;
+  }
+}
+
+/* --- Dispositivos medianos (<=768px) --- */
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+
+  .perfil-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .perfil-img img {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 15px;
+  }
+
+  .perfil-info {
+    padding: 0;
+  }
+
+  .perfil-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .descripcion {
+    text-align: justify;
+    font-size: 0.95rem;
+  }
+
+  .galeria {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    padding: 0 10px;
+  }
+
+  .galeria img {
+    height: 150px;
+    border-radius: 12px;
+  }
+
+  .contact-card {
+    margin-top: 40px;
+    padding: 20px 10px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contact-box {
+    width: 90%;
+    padding: 18px;
+  }
+}
+
+/* --- Móviles pequeños (<=480px) --- */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  .titulo {
+    font-size: 1.7rem;
+    margin-top: 25px;
+  }
+
+  .perfil-card {
+    padding: 16px;
+    border-radius: 12px;
+    gap: 16px;
+  }
+
+  .perfil-img img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .perfil-info h2 {
+    font-size: 1.1rem;
+  }
+
+  .descripcion {
+    font-size: 0.9rem;
+    text-align: justify;
+  }
+
+  .galeria {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 0 8px;
+  }
+
+  .galeria img {
+    height: 130px;
+  }
+
+  .lightbox-content {
+    max-width: 90vw;
+    max-height: 70vh;
+  }
+
+  .lightbox-close {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  .contact-box {
+    width: 95%;
+    padding: 14px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .contact-text h3 {
+    font-size: 1rem;
+  }
+
+  .contact-text p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 12px 16px;
+  }
+}
+
+/* --- Pantallas muy pequeñas o apaisadas (<=360px o <=500px height) --- */
+@media (max-width: 360px), (max-height: 500px) {
+  .titulo {
+    font-size: 1.5rem;
+  }
+
+  .perfil-img img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .perfil-info {
+    font-size: 0.85rem;
+  }
+
+  .contact-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .galeria img {
+    height: 120px;
+  }
+}
