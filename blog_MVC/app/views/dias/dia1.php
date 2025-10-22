@@ -147,7 +147,7 @@
   </div>
 </main>
 
-<!-- Lightbox para ampliar fotos -->
+
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada de imagen">
   <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">Cerrar ✕</button>
   <div class="lightbox-content"><img id="lightboxImg" alt="Imagen ampliada"></div>
