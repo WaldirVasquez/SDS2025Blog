@@ -949,12 +949,6 @@ section {
    🧩 FIX OVERFLOW HORIZONTAL EN MÓVILES (SDS25)
    ========================================================= */
 
-/* Fuerza a que nada se salga del ancho de la pantalla */
-html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden !important;
-}
 
 /* Asegura que los contenedores no generen scroll lateral */
 .wrapper,
@@ -988,11 +982,7 @@ section, .section-card {
   margin-right: auto;
 }
 
-html, body {
-  margin: 0 !important;
-  padding: 0 !important;
-  overflow-x: hidden;
-}
+
 .titulo-dia1 {
   margin-top: 0 !important;
   padding-top: 0 !important;
@@ -1026,36 +1016,58 @@ html, body {
   border-radius: 16px;
 }
 
-/* Reforzamos el bloqueo total del scroll horizontal */
-html, body {
-  overflow-x: hidden !important;
+/* =========================================================
+   🧩 FIX DEFINITIVO SCROLL Y FOOTER – SDS25
+   ========================================================= */
+
+/* 🔒 Control total del viewport */
+html {
   width: 100%;
   max-width: 100%;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important; /* fuerza un solo scroll global */
 }
 
-/* Corrige posibles “micro-scrolls” en iOS/Safari */
-/* 🧩 FIX FINAL SIN ROMPER FOOTER GLOBAL NI DOBLE SCROLL */
-
-html, body {
+/* 🔧 Normaliza el body sin crear contextos de scroll internos */
+body {
   width: 100%;
   max-width: 100%;
-  overflow-x: hidden !important;  /* evita desplazamiento lateral */
-  overflow-y: auto !important;    /* permite desplazamiento vertical normal */
   margin: 0;
   padding: 0;
+  overflow: visible !important; /* elimina scroll interno blanco */
+  position: static !important;  /* evita “caja” interna que levanta el footer */
+  height: auto !important;
 }
 
-/* Corrige el halo inferior */
+/* ✅ El halo inferior centrado sin empujar el layout */
 .halo.h2 {
   right: auto !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
   max-width: 100vw !important;
   overflow: hidden !important;
-  bottom: -120px;
+  bottom: -120px !important;
 }
 
-/* Evita que las secciones creen scroll interno */
-.wrapper, section {
+/* 🧱 Las secciones y contenedores no deben tener scroll oculto */
+.wrapper,
+section {
   overflow: visible !important;
+  max-width: 100vw;
+}
+
+/* 🧍‍♂️ Refuerzo global anti-scroll lateral */
+[data-anim],
+[data-anim="left"],
+[data-anim="right"] {
+  transform: none !important;
+  overflow-x: hidden !important;
+}
+
+/* 🩳 Extra: previene que sombras/blur de tarjetas causen ancho falso */
+.section-card,
+.card,
+.video-wrap {
+  overflow: hidden;
+  border-radius: 16px;
 }
