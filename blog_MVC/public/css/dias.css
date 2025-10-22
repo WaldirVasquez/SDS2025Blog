@@ -943,3 +943,47 @@ section {
     max-height: 60vh;
   }
 }
+
+
+/* =========================================================
+   🧩 FIX OVERFLOW HORIZONTAL EN MÓVILES (SDS25)
+   ========================================================= */
+
+/* Fuerza a que nada se salga del ancho de la pantalla */
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+/* Asegura que los contenedores no generen scroll lateral */
+.wrapper,
+section,
+.grid,
+.card,
+.video-wrap,
+.lightbox {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Si algún elemento usa transform/translate o animaciones que empujen el ancho */
+*[style*="translate"],
+[data-anim] {
+  will-change: transform;
+  transform: translateZ(0);
+}
+
+/* Si aún existiera un desplazamiento microscópico en ciertos navegadores */
+body {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+/* Corrige posibles márgenes negativos o sombras externas */
+section, .section-card {
+  margin-left: auto;
+  margin-right: auto;
+}
