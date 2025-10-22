@@ -1,6 +1,8 @@
 <?php
-// Define la ruta base del proyecto dentro del contenedor
-define('BASE_PATH', __DIR__ . '/');
+// Define la ruta base del proyecto dentro del contenedor, solo si no existe
+if (!defined('BASE_PATH')) {
+    define('BASE_PATH', __DIR__ . '/');
+}
 
 // Registrar el autoloader
 spl_autoload_register(function ($class) {
@@ -17,7 +19,7 @@ spl_autoload_register(function ($class) {
         }
     }
 
-    // Solo muestra error si estás en desarrollo (opcional)
+    // Mensaje opcional solo si estás en modo desarrollo
     if (getenv('APP_ENV') === 'local') {
         echo "<p style='color:red;text-align:center;'>⚠️ No se pudo cargar la clase: {$class}</p>";
     }
