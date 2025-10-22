@@ -1,5 +1,4 @@
 <?php
-
 class HomeController {
     public function index() {
         $viewPath = '/var/www/app/views/home.php';

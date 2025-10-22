@@ -1,6 +1,5 @@
 <?php include BASE_PATH . 'layout/header.php'; ?>
 
-
 <link rel="stylesheet" href="/css/dias.css">
 
 <!-- efecto de carga -->

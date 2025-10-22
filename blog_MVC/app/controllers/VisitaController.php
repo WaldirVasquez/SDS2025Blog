@@ -1,6 +1,5 @@
 <?php
 require_once __DIR__ . '/../models/Visita.php';
-
 class VisitaController {
 
     public function index() {
