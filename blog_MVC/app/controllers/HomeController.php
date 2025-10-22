@@ -5,9 +5,9 @@ class HomeController {
         $viewPath = '/var/www/app/views/home.php';
 
         if (file_exists($viewPath)) {
-            include $viewPath;
+            require $viewPath;
         } else {
-            echo "<p style='color:red;text-align:center;'> No se encontró la vista: $viewPath</p>";
+            echo "<p style='color:red;text-align:center;'>❌ No se encontró la vista en: <code>{$viewPath}</code></p>";
         }
     }
 }

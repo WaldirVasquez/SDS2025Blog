@@ -1,13 +1,25 @@
 <?php
+// Define la ruta base del proyecto dentro del contenedor
+define('BASE_PATH', __DIR__ . '/');
+
+// Registrar el autoloader
 spl_autoload_register(function ($class) {
-    $paths = ['app/controllers/', 'app/models/'];
+    $paths = [
+        BASE_PATH . 'app/controllers/',
+        BASE_PATH . 'app/models/',
+    ];
+
     foreach ($paths as $path) {
-        $file = __DIR__ . '/' . $path . $class . '.php';
+        $file = $path . $class . '.php';
         if (file_exists($file)) {
             require_once $file;
             return;
         }
     }
-});
 
+    // Solo muestra error si estás en desarrollo (opcional)
+    if (getenv('APP_ENV') === 'local') {
+        echo "<p style='color:red;text-align:center;'>⚠️ No se pudo cargar la clase: {$class}</p>";
+    }
+});
 ?>

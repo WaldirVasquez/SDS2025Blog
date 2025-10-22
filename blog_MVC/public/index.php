@@ -1,32 +1,16 @@
 <?php
-
+// Mostrar errores (solo en desarrollo)
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-define('BASE_PATH', '/var/www/app/views/');
+// Ruta base de vistas
+define('BASE_PATH', __DIR__ . '/../app/views/');
 
+// Cargar dependencias principales
 require_once __DIR__ . '/../autoloader.php';
 require_once __DIR__ . '/../lib/Route.php';
 require_once __DIR__ . '/../routes/web.php';
 
-// Obtener la URL desde el .htaccess
-$url = isset($_GET['url']) ? '/' . trim($_GET['url'], '/') : '/';
-
-// Ejecutar la ruta
-ob_start();
-Route::dispatch($url);
-$content = ob_get_clean();
-
-// Si no se encontró contenido, mostrar la home por defecto
-if (empty($content) && $url === '/') {
-    $path = __DIR__ . '/../app/views/home.php';
-    if (file_exists($path)) {
-        include $path;
-    } else {
-        echo "<p style='color:red;'>No se encontró la vista en: $path</p>";
-    }
-}
-
+// Ejecutar las rutas registradas
 Route::dispatch();
-
 ?>
