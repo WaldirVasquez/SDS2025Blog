@@ -45,6 +45,20 @@
         </div>
     </header>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const menuBtn = document.querySelector(".mobile-menu-btn");
+    const navMenu = document.querySelector(".nav-menu");
+
+    menuBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("menu-open");
+  menuBtn.classList.toggle("active");
+});
+    });
+
+  
+</script>
+
 </body>
 
 </html>
