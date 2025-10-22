@@ -1041,3 +1041,32 @@ body {
   margin: 0;
   padding: 0;
 }
+/* 🧩 FIX DEFINITIVO PARA ESPACIO LATERAL DERECHO (HALO Y ANIMACIONES) */
+
+.halo.h2 {
+  right: auto !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  max-width: 100vw !important;
+  overflow: hidden !important;
+}
+
+/* Asegura que ningún anim [data-anim] se salga del ancho */
+[data-anim],
+[data-anim="left"],
+[data-anim="right"] {
+  transform: none !important;
+  overflow-x: hidden !important;
+}
+
+/* Refuerzo global */
+html, body {
+  overflow-x: hidden !important;
+  width: 100%;
+  max-width: 100%;
+}
+
+.wrapper, section {
+  overflow-x: hidden !important;
+  max-width: 100vw;
+}
