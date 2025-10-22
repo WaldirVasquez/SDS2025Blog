@@ -1,5 +1,5 @@
 <?php
-require_once '/var/www/conexionBD/Database.php';
+require_once '/var/www/conexionBD/database.php';
 
 class Visita {
     private $conn;
