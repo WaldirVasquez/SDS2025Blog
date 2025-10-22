@@ -18,6 +18,7 @@ WORKDIR /var/www/html
 COPY ./blog_MVC/public/ /var/www/html/
 COPY ./blog_MVC/app/ /var/www/app/
 COPY ./blog_MVC/lib/ /var/www/lib/
+COPY ./blog_MVC/layout/ /var/www/layout/
 COPY ./blog_MVC/routes/ /var/www/routes/
 COPY ./blog_MVC/conexionBD/ /var/www/conexionBD/
 COPY ./blog_MVC/autoloader.php /var/www/autoloader.php
